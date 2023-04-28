@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shopping-card.git/static/css/main.7afb75c8.css",
+    "main.js": "/shopping-card.git/static/js/main.a2dec869.js",
+    "static/js/787.46cf8e3a.chunk.js": "/shopping-card.git/static/js/787.46cf8e3a.chunk.js",
+    "index.html": "/shopping-card.git/index.html",
+    "main.7afb75c8.css.map": "/shopping-card.git/static/css/main.7afb75c8.css.map",
+    "main.a2dec869.js.map": "/shopping-card.git/static/js/main.a2dec869.js.map",
+    "787.46cf8e3a.chunk.js.map": "/shopping-card.git/static/js/787.46cf8e3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7afb75c8.css",
+    "static/js/main.a2dec869.js"
+  ]
+}
