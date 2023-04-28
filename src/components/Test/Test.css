@@ -1,0 +1,66 @@
+.button {
+    width: 140px;
+    height: 45px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+    margin-left: 10px;
+   }
+   
+   .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #4e0303;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   .button:hover::before {
+    width: 100%;
+   }
+   
+   .button:hover {
+    color: #ffffff;
+   }
+   
+   .button:active:before {
+    background: #a2895a;
+   }
+
+.Main-card{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+   .card {
+    width: 280px;
+    height:400px;
+    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 26px;
+    box-shadow: 35px 35px 68px 0px rgba(255, 198, 157, 0.2), inset -8px -8px 16px 0px rgba(203, 178, 103, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 35px 35px 68px 0px rgba(255, 216, 157, 0.5);
+  }
+  
+  .card:active {
+    transform: scale(0.95);
+    border: 1px solid #ffd900;
+  }
